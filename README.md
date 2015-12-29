@@ -1,6 +1,6 @@
-# Code for a post For codegaze.github.io
+# Code for a codegaze.github.io post
 
-This repository was created from another [Axel Rauschmayer's repository](https://github.com/rauschma/webpack-babel-demo/) to help a blog post I did about creating an ES6 module.
+This repository was created from another [Axel Rauschmayer's repository](https://github.com/rauschma/webpack-babel-demo/) to help a [blog post](http://codegaze.github.io/2015/12/27/create-an-es6-module/) I did about creating an ES6 module.
 
 Installation:
 
