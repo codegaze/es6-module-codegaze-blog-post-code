@@ -10,7 +10,7 @@ let shareButtons = function(){
   //  No need for a parenthesis here we got one parameter
   let window_open = url => {
     window.open(url, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,width=500,height=300');
-  }
+  };
 
   let add_listeners_to_buttons = () => {
 
