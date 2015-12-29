@@ -2,16 +2,39 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>webpack Babel demo</title>
+    <title>ES6 ShareButtons</title>
 </head>
 <body>
 
-<h1>webpack Babel demo</h1>
+<h1>ES6 ShareButtons</h1>
 
 <a href="http://codegaze.github.io/2015/11/24/share-buttons-performance/" class="share__button facebook js-share-button" data-service="facebook">Share on Facebook</a>
 <a href="http://codegaze.github.io/2015/11/24/share-buttons-performance/" class="share__button twitter js-share-button" data-service="twitter" title="Share Buttons Performance Issues and how to deal with them - @codegaze">Share on Twitter</a>
 
 <script src="bundle.js"></script>
+<style>
+  body, html {
+    font-family: Verdana;
+  }
+  a.share__button{
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    color: #fff;
+  }
+  a.share__button:hover {
+    opacity: .6;
+  }
+  .facebook {
+    background: #47639E;
+  }
 
+  .twitter {
+    background: #55ACEE;
+  }
+  .has-centered {
+    text-align: center;
+  }
+</style>
 </body>
 </html>
